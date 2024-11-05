@@ -1,11 +1,10 @@
-import { FileUploadForm } from "@/components/file-upload-form";
+import React from "react";  
+import { useState } from "react";
 
 function App() {
+  const [isFirstConnection, setIsFirstConnection] = useState(true);
   return (
-    <div className="container mx-auto py-10">
-      <h1 className="text-2xl font-bold mb-6">Upload de photo - M321</h1>
-      <FileUploadForm />
-    </div>
+    
   );
 }
 
