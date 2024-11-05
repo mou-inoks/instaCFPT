@@ -1,3 +1,4 @@
+// Purpose: Controller for uploading images.
 import { Request, Response, RequestHandler } from "express";
 
 export const uploadImage: RequestHandler = (req: Request, res: Response): void => {

@@ -1,3 +1,4 @@
+//Server configuration
 import path from "path";
 
 export const serverConfig = {

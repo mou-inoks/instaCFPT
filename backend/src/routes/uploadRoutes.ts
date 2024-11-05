@@ -1,3 +1,4 @@
+// Init router and import upload middleware and upload controller
 import { Router } from "express";
 import upload from "../middlewares/uploadMiddleware";
 import { uploadImage } from "../controllers/uploadController";

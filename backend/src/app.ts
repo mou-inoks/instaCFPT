@@ -1,3 +1,4 @@
+// Desc: Main application file for the backend server
 import express, { Application } from "express";
 import path from "path";
 import cors from "cors";
@@ -7,7 +8,7 @@ import { serverConfig } from "./config/serverConfig";
 const app: Application = express();
 
 app.use(cors({
-  origin: "*", // TODO : Change with app url
+  origin: "*", 
 }));
 
 app.use("/uploads", express.static(serverConfig.uploadDirectory));
